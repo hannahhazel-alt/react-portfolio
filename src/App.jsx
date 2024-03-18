@@ -1,5 +1,11 @@
-import { useEffect } from 'react';
-import { HashRouter as Router, Route, Routes, useLocation, Navigate } from 'react-router-dom';
+import { useEffect } from "react";
+import {
+  HashRouter as Router,
+  Route,
+  Routes,
+  useLocation,
+  Navigate,
+} from "react-router-dom";
 
 import styles from "./App.module.css";
 import { Navbar } from "./components/Navbar/Navbar";
@@ -10,7 +16,14 @@ import { Projects } from "./components/Projects/Projects";
 import { Contact } from "./components/Contact/Contact";
 import { Skills } from "./components/Skills/Skills";
 
-const validRoutes = ['/Portfolio/', '/about', '/skills', '/experience', '/projects', '/contact'];
+const validRoutes = [
+  "/react-portfolio/",
+  "/about",
+  "/skills",
+  "/experience",
+  "/projects",
+  "/contact",
+];
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -22,7 +35,7 @@ const ScrollToTop = () => {
 
   // Add logic to redirect to home page if the path is not recognized
   if (!validRoutes.includes(pathname)) {
-    return <Navigate to="/Portfolio/" replace />;
+    return <Navigate to="/react-portfolio/" replace />;
   }
 
   return null; // This component doesn't render anything
@@ -35,7 +48,7 @@ function App() {
         <Navbar />
         <ScrollToTop />
         <Routes>
-          <Route path="/Portfolio/" element={<Hero />} />
+          <Route path="/react-portfolio/" element={<Hero />} />
           <Route path="/about" element={<About />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/experience" element={<Experience />} />
