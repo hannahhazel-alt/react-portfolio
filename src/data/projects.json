@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "Bootstrap-portfolio",
+    "description": "This website showcases various aspects of my life, including my adventures, projects, professional development, passions, and values. Feel free to explore the different sections and get to know more about me.",
+    "imageSrc": "projects/BootstrapPortfolio.jpg",
+    "demo": "https://hannahhazel-alt.github.io/Bootstrap-portfolio/",
+    "source": "https://github.com/hannahhazel-alt/Bootstrap-portfolio",
+    "projectType": " Web App",
+    "role": "sole author",
+    "dependencies": [],
+    "skills": [" HTML ", " CSS ", " Bootstrap "]
+  },
+  {
+    "id": 2,
+    "title": "password-generator",
+    "description": "The Password Generator is a dynamic and secure application that allows users to generate strong and random passwords based on their specified criteria. It prompts the user for password length and character types, ensuring a personalized and secure password.",
+    "imageSrc": "projects/PasswordGenerator.jpg",
+    "demo": "https://hannahhazel-alt.github.io/password-genorator/",
+    "source": "https://github.com/hannahhazel-alt/password-genorator",
+    "projectType": "Web/Mobile App",
+    "role": "sole author",
+    "dependencies": [],
+    "skills": [" JavaScript ", " HTML ", " CSS ", " Bootstrap "]
+  },
+  {
+    "id": 3,
+    "title": "quiz-challenge",
+    "description": "This project is a simple coding quiz challenge that tests the user's knowledge of programming. The quiz presents a series of questions with multiple-choice answers, and the user must choose the correct option. The quiz is timed, and incorrect answers result in a time penalty.",
+    "imageSrc": "projects/QuizGame.jpg",
+    "demo": "https://designs-by-kate.github.io/Code-Quiz/",
+    "source": "https://github.com/hannahhazel-alt/quiz-challenge",
+    "projectType": "Web/Mobile App",
+    "role": "sole author",
+    "dependencies": [],
+    "skills": [" JavaScript ", " HTML ", " CSS ", " Bootstrap "]
+  },
+  {
+    "id": 4,
+    "title": "daily-planner",
+    "description": "This is a simple Daily Planner app that allows users to organize their tasks and schedule for the day. It includes features such as displaying the current day, creating time blocks for standard business hours, dynamically updating HTML/CSS for time blocks, and saving tasks to local storage",
+    "imageSrc": "projects/WorkDayScheduler.jpg",
+    "demo": "https://hannahhazel-alt.github.io/daily-planner/",
+    "source": "https://github.com/hannahhazel-alt/daily-planner",
+    "projectType": "Web/Mobile App",
+    "role": "sole author",
+    "dependencies": [],
+    "skills": [" JavaScript ", " HTML ", " CSS ", " Bootstrap "]
+  },
+  {
+    "id": 5,
+    "title": "weather-dashboard-challenge",
+    "description": "This is a simple web application that allows users to check the current weather and 5-day forecast for a given city.",
+    "imageSrc": "projects/WeatherDashboard.jpg",
+    "demo": "https://hannahhazel-alt.github.io/weather-dashboard-challenge/",
+    "source": "https://github.com/hannahhazel-alt/weather-dashboard-challenge",
+    "projectType": "Web/Mobile App",
+    "role": "sole author",
+    "dependencies": [],
+    "skills": [" JavaScript ", " HTML ", " CSS ", " Bootstrap ", " API "]
+  },
+  {
+    "id": 6,
+    "title": "Movie-Game",
+    "description": "This is my first group project and it's an app where you can input ingredients and get a rutrn of recipes and meals, with a wine pairing and a cute little GIF.",
+    "imageSrc": "projects/ ",
+    "demo": "https://need-to-excel.github.io/Messy-Pantry/",
+    "source": "https://github.com/need-to-excel/Messy-Pantry",
+    "projectType": "Web/Mobile App",
+    "role": "group project",
+    "dependencies": [],
+    "skills": [" JavaScript ", " HTML ", " CSS ", " Bootstrap ", " API "]
+  },
+  {
+    "id": 7,
+    "title": "team-profile-generator",
+    "description": "Team-Profile-Generator is a Node.js command-line application designed to simplify the process of creating a professional-looking webpage showcasing your software engineering team. It caters to managers who need a quick and efficient way to generate HTML pages containing essential information about team members.",
+    "imageSrc": "projects/TeamProfileGenerator.jpg",
+    "demo": " ",
+    "source": "https://github.com/hannahhazel-alt/team-profile-generator",
+    "projectType": "Mobile App",
+    "role": "sole author",
+    "dependencies": [],
+    "skills": [" JavaScript ", " HTML ", " CSS ", " Bootstrap ", " Node.js "]
+  },
+  {
+    "id": 8,
+    "title": "README-Generator",
+    "description": "Team-Profile-Generator is a Node.js command-line application designed to simplify the process of creating a professional-looking webpage showcasing your software engineering team. It caters to managers who need a quick and efficient way to generate HTML pages containing essential information about team members.",
+    "imageSrc": "projects/ReadmeGenerator.jpg",
+    "demo": " ",
+    "source": "https://github.com/hannahhazel-alt/README-Generator-",
+    "projectType": "Mobile App",
+    "role": "sole author",
+    "dependencies": [],
+    "skills": [" JavaScript ", " HTML ", " CSS ", " Bootstrap ", " Node.js "]
+  }
+]

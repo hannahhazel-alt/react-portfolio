@@ -1,0 +1,61 @@
+[
+  {
+    "role": "PROGRAMMING",
+    "organization": "Bootcamp edX",
+    "startDate": "2023",
+    "endDate": "2024",
+    "experiences": [
+      "HTML",
+      "CSS, BOOTSTRAP",
+      "JS, jQuery",
+      "React",
+      "Node",
+      "API"
+    ],
+    "imageSrc": "history/programming.jpg"
+  },
+  {
+    "role": "STUDENT",
+    "organization": "Liverpool John Moores Univeristy",
+    "startDate": "2016",
+    "endDate": "2019",
+    "experiences": [
+      "Problem Solving",
+      "Article Writing",
+      "Data Analysis",
+      "Innovative Thinking",
+      "Data Research"
+    ],
+    "imageSrc": "history/ "
+  },
+  {
+    "role": "METADATA ASSISTANT",
+    "organization": "Penguin Random House",
+    "startDate": "2022",
+    "endDate": "2023",
+    "experiences": [
+      "Communication",
+      "Teamwork",
+      "Organization",
+      "Tracking Trends",
+      "Coordination",
+      "Meeting Management"
+    ],
+    "imageSrc": "history/ "
+  },
+  {
+    "role": "MODERATOR",
+    "organization": "TikTok",
+    "startDate": "2020",
+    "endDate": "2022",
+    "experiences": [
+      "Organization",
+      "Time Management",
+      "Leadership",
+      "TeamWork",
+      "Events",
+      "Attention to Detail"
+    ],
+    "imageSrc": "history/ "
+  }
+]
