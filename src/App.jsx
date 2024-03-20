@@ -17,7 +17,7 @@ import { Contact } from "./components/Contact/Contact";
 import { Skills } from "./components/Skills/Skills";
 
 const validRoutes = [
-  "/react-portfolio/",
+  "/Portfolio/",
   "/about",
   "/skills",
   "/experience",
@@ -35,7 +35,7 @@ const ScrollToTop = () => {
 
   // Add logic to redirect to home page if the path is not recognized
   if (!validRoutes.includes(pathname)) {
-    return <Navigate to="/react-portfolio/" replace />;
+    return <Navigate to="/Portfolio/" replace />;
   }
 
   return null; // This component doesn't render anything
@@ -46,10 +46,11 @@ function App() {
     <Router>
       <div className={styles.App}>
         <Navbar />
-        <ScrollToTop />
+        {/* <ScrollToTop /> */}
+
         <Routes>
-          <Route path="/react-portfolio/" element={<Hero />} />
-          <Route path="/about" element={<About />} />
+          {/* <Route path="/Portfolio/" element={<Hero />} /> */}
+          <Route path="/" element={<About />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/projects" element={<Projects />} />

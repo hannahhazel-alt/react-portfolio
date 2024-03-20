@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 import styles from "./Navbar.module.css";
-import { getImageUrl } from "../../utils";
 import closeIcon from "../../assets/nav/closeIcon.png";
 import menuIcon from "../../assets/nav/menuIcon.png";
 
@@ -12,10 +11,10 @@ export const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div>
-        <img className={styles.logo} src={getImageUrl(" ")} alt="Logo" />
-        <a className={styles.title} href="/Portfolio/">
+        <img className={styles.logo} src={" "} alt="Logo" />
+        <NavLink className={styles.title} to="/">
           Portfolio
-        </a>
+        </NavLink>
       </div>
       <div className={styles.menu}>
         <img
@@ -30,7 +29,7 @@ export const Navbar = () => {
         >
           <li className="nav-item">
             <NavLink
-              to="/about"
+              to="/"
               end
               className={({ isActive }) =>
                 isActive ? "nav-link active" : "nav-link"

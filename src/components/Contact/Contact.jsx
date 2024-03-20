@@ -2,7 +2,6 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 import styles from "./Contact.module.css";
-import { getImageUrl } from "../../utils";
 
 export const Contact = () => {
   const form = useRef();
@@ -49,12 +48,12 @@ export const Contact = () => {
         <p>Feel free to reach out to me!</p>
         <ul className={styles.links}>
           <li className={styles.link}>
-            <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
+            <img src={"./assets/contact/emailIcon.png"} alt="Email icon" />
             <a href="mailto:hazelhannah48@gmail.com">hazelhannah48@gmail.com</a>
           </li>
           <li className={styles.link}>
             <img
-              src={getImageUrl("contact/linkedinIcon.png")}
+              src={"./assets/contact/linkedinIcon.png"}
               alt="LinkedIn icon"
             />
             <a href="https://www.linkedin.com/in/hannahhazel/">
@@ -62,10 +61,7 @@ export const Contact = () => {
             </a>
           </li>
           <li className={styles.link}>
-            <img
-              src={getImageUrl("contact/githubIcon.png")}
-              alt="Github icon"
-            />
+            <img src={"./assets/contact/githubIcon.png"} alt="Github icon" />
             <a href="https://github.com/hannahhazel-alt">
               github.com/hannahhazel-alt
             </a>

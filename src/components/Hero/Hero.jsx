@@ -1,7 +1,6 @@
 import React from "react";
 
 import styles from "./Hero.module.css";
-import { getImageUrl } from "../../utils";
 
 export const Hero = () => {
   return (
@@ -33,7 +32,7 @@ export const Hero = () => {
             <li className={styles.link}>
               <a href="mailto:hazelhannah48@gmail.com">
                 <img
-                  src={getImageUrl("hero/email.png")}
+                  src={"./assets/hero/email.png"}
                   alt="Email icon"
                   className={styles.email}
                 />
@@ -41,30 +40,24 @@ export const Hero = () => {
             </li>
             <li className={styles.link}>
               <a href="https://www.linkedin.com/in/hannahhazel">
-                <img
-                  src={getImageUrl("hero/linkedin.png")}
-                  alt="LinkedIn icon"
-                />
+                <img src={"./assets/hero/linkedin.png"} alt="LinkedIn icon" />
               </a>
             </li>
             <li className={styles.link}>
               <a href="https://github.com/hannahhazel-alt">
-                <img
-                  src={getImageUrl("hero/githubWhite.png")}
-                  alt="Github icon"
-                />
+                <img src={"./assets/hero/githubWhite.png"} alt="Github icon" />
               </a>
             </li>
             <li className={styles.link}>
               <a href="CV.pdf" target="_blank" rel="noopener noreferrer">
-                <img src={getImageUrl("hero/cv.png")} alt="CV icon" />
+                <img src={"./assets/hero/cv.png"} alt="CV icon" />
               </a>
             </li>
           </ul>
         </div>
       </div>
       <img
-        src={getImageUrl("hero/heroImage.png")}
+        src={"./assets/hero/heroImage.png"}
         alt="Hero image of me"
         className={styles.heroImg}
       />
