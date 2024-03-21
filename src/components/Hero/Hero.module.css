@@ -28,8 +28,8 @@
   font-family: var(--font-roboto);
   background: linear-gradient(
     90deg,
-    rgba(162, 250, 121, 0.993) 70%,
-    rgba(255, 255, 255, 0) 120%
+    rgba(255, 255, 255, 0.993) 70%,
+    rgba(254, 226, 249, 0) 120%
   );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -45,8 +45,8 @@
   text-decoration: none;
   background: linear-gradient(
     90deg,
-    rgba(162, 250, 121, 0.993) 70%,
-    rgba(1, 26, 5, 0.829) 120%
+    rgba(220, 130, 243, 0.993) 70%,
+    rgba(211, 74, 246, 0.829) 120%
   );
   color: var(--color-dark);
   border-radius: 100px;
@@ -59,8 +59,8 @@
 .contactBtn:hover {
   background: linear-gradient(
     90deg,
-    rgba(1, 26, 5, 0.829) 70%,
-    rgba(162, 250, 121, 0.993) 120%
+    rgba(117, 30, 143, 0.829) 70%,
+    rgba(255, 255, 255, 0.993) 120%
   );
   color: var(--color-primary);
   border-radius: 100px;
@@ -93,7 +93,7 @@
   }
 }
 
-.linksContainer{
+.linksContainer {
   display: flex;
   justify-content: space-between;
 }
@@ -120,8 +120,8 @@
 }
 
 .link img:hover {
-  box-shadow: 0 0 10px rgba(135, 230, 122, 0.5); 
-  border-radius: 100%; 
+  box-shadow: 0 0 10px rgba(251, 251, 251, 0.5);
+  border-radius: 100%;
 }
 
 .topBlur {
@@ -133,7 +133,7 @@
   top: -128px;
   left: -10vw;
   border-radius: 764px;
-  background: rgba(28, 109, 134, 0.7);
+  background: rgba(134, 28, 111, 0.7);
   filter: blur(100px);
   z-index: 0;
 }
@@ -147,7 +147,7 @@
   top: 246px;
   right: -25vw;
   border-radius: 764px;
-  background: rgb(0, 0, 0);
+  background: rgb(103, 29, 89);
   filter: blur(100px);
   z-index: 0;
 }
@@ -165,7 +165,7 @@
   .heroImg {
     width: 80%;
     z-index: 1;
-  
+
     box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
     border-radius: 100%;
     overflow: hidden;
