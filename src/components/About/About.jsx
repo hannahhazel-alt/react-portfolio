@@ -11,7 +11,7 @@ export const About = () => {
         <h2 className={styles.title}>About</h2>
         <div className={styles.content}>
           <img
-            src={"./assets/about/aboutImage.jpg"}
+            src={"./assets/about/Logo.png"}
             alt=" "
             className={styles.aboutImage}
           />
@@ -24,7 +24,7 @@ export const About = () => {
               </div>
             </li>
             <li className={styles.aboutItem}>
-              <img src={" "} alt="Uni icon" />
+              <img src={"./assets/about/uni.png"} alt="Uni icon" />
               <div className={styles.aboutItemText}>
                 <h3>John Moores University</h3>
                 <p>

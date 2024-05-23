@@ -11,7 +11,11 @@ export const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div>
-        <img className={styles.logo} src={" "} alt="Logo" />
+        <img
+          className={styles.logo}
+          src={"./assests/nav/Logo.png"}
+          alt="Logo"
+        />
         <NavLink className={styles.title} to="/">
           Portfolio
         </NavLink>

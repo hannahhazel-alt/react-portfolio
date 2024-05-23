@@ -23,7 +23,6 @@
   margin-top: 14px;
 }
 
-
 .history {
   display: flex;
   flex-wrap: wrap;
@@ -39,7 +38,7 @@
   align-items: center;
   gap: 17px;
   background: #071b08;
-  background: linear-gradient(90deg, #427c26 0%, rgba(2, 19, 5, 0) 100%);
+  background: linear-gradient(90deg, #7c266c 0%, rgba(2, 19, 5, 0) 100%);
   border-radius: 10px;
   padding: 24px;
 }
@@ -49,7 +48,7 @@
   height: 200px;
   overflow: hidden;
   border-radius: 50%;
-  border: 3px solid var(--color-primary)
+  border: 3px solid var(--color-primary);
 }
 
 .historyItemDetails {
@@ -116,7 +115,7 @@
     font-size: 28px;
     font-weight: 500;
   }
-  
+
   .historyItemDetails p {
     font-size: 20px;
     font-weight: 300;
